@@ -7,7 +7,7 @@ export interface INavitemProps {
 
 export function Navitem (props: INavitemProps) {
   return (
-    <a href={props.href} className='hover:opacity-50 transition-all hover:text-black cursor-pointer'>
+    <a target="_blank" href={props.href} className='hover:opacity-50 transition-all hover:text-black cursor-pointer'>
         {props.label}
     </a>
   );
