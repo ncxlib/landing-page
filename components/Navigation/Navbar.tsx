@@ -9,7 +9,7 @@ const navigation_items = [
     label: "github",
   },
   {
-    href: "https://app.gitbook.com/o/mJkrJAw1A7YIQ62bXkZs/s/CkXQsQ2SU6e3FdDOLRfr/",
+    href: "https://ncxlib.gitbook.io/ncxlib",
     label: "documentation",
   },
   {
