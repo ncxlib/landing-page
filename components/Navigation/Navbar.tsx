@@ -9,7 +9,7 @@ const navigation_items = [
     label: "github",
   },
   {
-    href: "https://github.com/ncxlib/NeuralNetwork",
+    href: "https://app.gitbook.com/o/mJkrJAw1A7YIQ62bXkZs/s/CkXQsQ2SU6e3FdDOLRfr/",
     label: "documentation",
   },
   {
