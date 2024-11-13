@@ -20,7 +20,7 @@ const navigation_items = [
 
 export function Navbar () {
   return (
-    <nav className='flex flex-row items-center justify-center gap-8 text-2xl mt-8 font-light'>
+    <nav className='flex flex-row items-center justify-center gap-8 text-2xl mt-4 font-light'>
       {navigation_items.map(item => <Navitem key={item.label} href={item.href} label={item.label} />)}
     </nav>
   );
