@@ -10,18 +10,24 @@ const navigation_items = [
   },
   {
     href: "https://ncxlib.gitbook.io/ncxlib",
-    label: "documentation",
+    label: "docs",
+  },
+  {
+    href: "/bugsmash",
+    label: "bugsmash",
+    target:  ""
   },
   {
     href: "https://pypi.org/project/ncxlib/",
     label: "pypi",
-  }
+  },
+  
 ]
 
 export function Navbar () {
   return (
-    <nav className='flex flex-row items-center justify-center gap-8 text-2xl mt-4 font-light'>
-      {navigation_items.map(item => <Navitem key={item.label} href={item.href} label={item.label} />)}
+    <nav className='flex flex-row items-center justify-center gap-8 sm:text-xl lg:text-2xl mt-4 font-light'>
+      {navigation_items.map(item => <Navitem key={item.label} target={item.target} href={item.href} label={item.label} />)}
     </nav>
   );
 }
