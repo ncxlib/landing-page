@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
-import { Analytics } from '@vercel/analytics/next';
-
+import { Logo } from "@/components/Logo";
+import { Navbar } from "@/components/Navigation/Navbar";
+import { Analytics } from "@vercel/analytics/next";
 
 const chillax = localFont({
   src: "./fonts/Chillax-Variable.ttf",
@@ -23,9 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${chillax.variable} antialiased`}
-      >
+      <body className={`${chillax.variable} antialiased  w-2/3 mt-16 mx-auto`}>
+        <Logo width={450} height={150} />
+        <Navbar />
         {children}
         <Analytics />
       </body>

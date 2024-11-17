@@ -1,17 +1,12 @@
 "use client";
 import { Codeblock } from "@/components/Codeblock";
-import { Header } from "@/components/Header";
-import { Navbar } from "@/components/Navigation/Navbar";
 import { installationCode } from "@/public/code-snippets/install";
 import { getStartedCode } from "@/public/code-snippets/getStarted";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen mx-auto mt-16 pb-8">
-      <div className="mx-auto w-2/3">
-
-        <Header title="ncxlib"/>
-        <Navbar />
+    <div className="w-full h-full mx-auto mt-16 pb-8">
+      <div className="">
         <div className="mt-16 text-center text-lg">
           A high-performance and lightweight neural network library for Python.
         </div>
@@ -29,8 +24,9 @@ export default function Home() {
         />
       </div>
 
-      <div className="text-center p-8 text-2xl font-medium">Please ⭐ our repo to support our work!</div>
-
+      <div className="text-center p-8 text-2xl font-medium">
+        Please ⭐ our repo to support our work!
+      </div>
     </div>
   );
 }
