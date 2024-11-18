@@ -23,8 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${chillax.variable} antialiased  w-2/3 mt-16 mx-auto`}>
-        <Logo width={450} height={150} />
+      <body className={`${chillax.variable} antialiased mt-16 pb-8  mx-auto `}>
+        <Logo />
         <Navbar />
         {children}
         <Analytics />

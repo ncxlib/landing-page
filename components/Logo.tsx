@@ -2,16 +2,14 @@
 import * as React from "react";
 import Link from "next/link";
 
-export function Logo({ width = 531, height = 153 }) {
+export function Logo() {
   return (
     <Link href="/" passHref>
       <svg
-        className="mx-auto text-center"
+        className="w-full md:max-w-[450px] h-auto mx-auto text-center max-w-[320px]"
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
         viewBox={`0 0 534.39 153.38`}
-        width={width}
-        height={height}
       >
         <g>
           <g id="Layer_1">

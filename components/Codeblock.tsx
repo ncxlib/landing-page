@@ -6,12 +6,13 @@ export interface ICodeblockProps {
   title: string | null;
   code: string;
   language: string;
-  linenumbers: boolean
+  linenumbers: boolean,
+  className?: string,
 }
 
 export function Codeblock(props: ICodeblockProps) {
   return (
-    <div className="text-xl">
+    <div className={`text-xl ${props.className}`}>
       {props.title && (
         <div className="mt-10 mb-4 text-left text-2xl font-semibold">
           {props.title}
