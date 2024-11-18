@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className="block md:hidden mt-8 text-center">
             <a
-              href="https://github.com/ncxlib"
+              href="/bugsmash"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-black border-2 border-black px-5 py-2 rounded"
@@ -61,7 +61,7 @@ export default function Home() {
         </div>
       <div className=" mt-8 text-center">
         <a
-          href="https://github.com/your-repo"
+          href="https://github.com/ncxlib"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center space-x-2 hover:underline"
